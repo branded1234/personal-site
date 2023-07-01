@@ -8,7 +8,7 @@ p{
 }
 h1{
     font-size: 5.625rem;
-    margin: 50px auto 0 auto;
+    margin: 3.125rem auto 0 auto;
     font-family: 'Sacramento', cursive;
     color: #66BFBF;
 }
@@ -19,17 +19,17 @@ h2{
 }
 h3{
     font-size: 1.2rem;
-    margin: auto 40px;
+    margin: auto 2.5rem;
     font-family: 'Poppins', sans-serif;
     color: #11999E;
 }
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-width: 5px;
+    border-width: 0.3125rem;
     border-color: rgb(187, 186, 186);
     width: 3%;
-    margin: 100px auto 100px auto;
+    margin: 6.25rem auto 6.25rem auto;
 }
 a{
     color: #11999E;
@@ -43,19 +43,19 @@ a:hover{
 .top-container{
     background-color: #E4F9F5;
     position: relative;
-    padding-top: 100px;
+    padding-top: 6.25rem;
 }
 .middle-container{
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
 }
 .bottom-container{
     background-color: #66BFBF;
-    padding-top: 40px;
-    padding-bottom: 25px;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5625rem;
 }
 .copyright{
     color: #EAF6F6 ;
-    margin-top: 30px;
+    margin-top: 1.875rem;
     margin-bottom: 0;
     font-size: 0.75rem;
 }
@@ -65,39 +65,39 @@ a:hover{
 }
 .contact-message{
     width: 35%;
-    margin: 40px auto 60px;
+    margin: 2.5rem auto 3.75rem;
 }
 .pro{
     text-decoration: underline;
 }
 .top-cloud{
     position: absolute;
-    right: 300px;
-    top: 40px;
+    right: 18.75rem;
+    top: 2.5rem;
 }
 .bottom-cloud{
     position: absolute;
-    left: 250px;
-    bottom: 300px;
+    left: 15.625rem;
+    bottom: 18.75rem;
 }
 .skill-row{
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 6.25rem auto 6.25rem auto;
     text-align: left;
 }
 .Chess{
-    max-block-size: 200px;
+    max-block-size: 12.5rem;
     float: right;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 .Coding{
-    max-block-size: 200px;
+    max-block-size: 12.5rem;
     float: left;
-    margin-right: 30px
+    margin-right: 1.875rem;
 }
 .profilepic{
-    padding-top: 50px;
-    max-block-size: 300px;
+    padding-top: 3.125rem;
+    max-block-size: 18.75rem;
 }
 .btn {
     background: #11CDD4;
@@ -138,3 +138,70 @@ a:hover{
     border-radius: 20px;
     text-decoration: none;
  }
+@media(max-width:786px){
+    h1{
+        font-size: 3.625rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    .top-container{
+        padding-top: 3rem;
+    }
+    .top-container h2{
+        padding-bottom: 3rem;
+    }
+    .profile{
+        width: 60%;
+    }
+    .contact-me h3{
+        font-size: 1.25rem;
+        width:60%;
+        margin: 0 auto 0 auto;
+    }
+    .contact-message{
+        width: 60%;
+        margin: 1rem auto 3.75rem;
+    }
+    .top-cloud{
+        max-block-size: 2.5rem;
+        position: absolute;
+        right: 1.2rem;
+        top: 2.5rem;
+    }
+    .bottom-cloud{
+        max-block-size: 2.5rem;
+        position: absolute;
+        left: 0.9rem;
+        bottom: 13.5rem;
+    }
+    .mountain{
+        max-block-size: 13.25rem;
+
+    }
+    .Chess{
+        float: right;
+        max-block-size: 10rem;
+    }
+    .Coding{
+        float: left;
+        max-block-size: 10rem;
+    }
+    .profilepic{
+        max-block-size: 13rem;
+    }
+    .skill-row{
+        width: 90%;
+        margin: 3.25rem auto 3.25rem auto;
+    }
+    .skill-row h3{
+        margin: auto;
+    }
+    hr{
+        width: 7%;
+        margin: 3rem auto 3rem auto;
+    }
+    .btn{
+        font-size: 12.5px;
+    }
+}
